@@ -38,7 +38,7 @@
         handleMenuClick(e) {
           switch (e.target.textContent) {
             case this.menuText.performanceRating:
-              this.$router.push("/home/supplierscoreinput");
+              this.$router.push("/supplierScore");
               break;
             case this.menuText.performanceData:
               this.$router.push("/home/performancedata");
